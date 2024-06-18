@@ -1,0 +1,72 @@
+/* TIENDA */
+
+.contenedorPrendas {
+    padding: 2rem;
+}
+.contenedorPrendas__card {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid darkblue;
+   width: calc(100% - padding);
+   gap: 10rem;
+   padding: 2rem;
+   margin-bottom: 2rem;
+}
+
+.contenedorPrendas__imagenCard {
+    width: 10%;
+}
+
+
+/* PERSONAS */
+.contenedorPersonas {
+    background-color: rgb(42, 98, 161);
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.contenedorPersonas__tituloCard {
+    color: white;
+    font-size: 3rem;
+}
+.contenedorPersonas__lista {
+    list-style-type: none;
+    font-size: 2rem;
+    text-align: center;
+}
+.contenedorPersonas__imagenCard {
+    margin-top: 1rem;
+}
+
+/* DRAGON */
+.contenedorDragones__card {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+
+/* POKEMONS */
+.contenedorPokemons__card {
+    background-color: #ef5350;
+    padding: 5rem;
+    
+}
+.contenedorPokemons__tituloCard{
+color: #feca1c;
+font-size: 4rem;
+text-shadow: 3px 3px 3px #3761a8;
+}
+.contenedorPokemons__listado{
+    list-style-type: none;
+    color: white;
+    font-size: 2rem;
+}
